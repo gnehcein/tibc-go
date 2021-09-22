@@ -118,7 +118,7 @@ func (m ClientState) VerifyPacketAcknowledgement(
 	proof []byte,
 	sourceChain, destChain string,
 	sequence uint64,
-	acknowledgement []byte,
+	ackBytes []byte,
 ) error {
 	panic("implement me")
 }
